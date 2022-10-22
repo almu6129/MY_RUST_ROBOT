@@ -1,44 +1,11 @@
+This code uses the avr hardware abstraction layer.
+
+
 `avr-hal-template`
-==================
-[`cargo-generate`] template for jumpstarting projects on common AVR
-microcontroller boards.  This template supports the following hardware at this
-time:
-
- - Arduino Leonardo
- - Arduino Mega 2560
- - Arduino Nano
- - Arduino Nano New Bootloader (Manufactured after January 2018)
- - Arduino Uno
- - SparkFun ProMicro
- - Adafruit Trinket
- - Adafruit Trinket Pro
-
-## Usage
-If you don't have them already, install [`cargo-generate`] and [`ravedude`]:
-
-```bash
-cargo install cargo-generate
-cargo install ravedude
-```
-
-Then instanciate this template:
-
-```bash
-cargo generate --git https://github.com/Rahix/avr-hal-template.git
-```
-
-You will be prompted to select your board - do so and you're ready to roll!
-Everything is prepared so you should be able to just
 
 ```bash
 cargo run
 ```
-
-and see a blinky flashed to your board!
-
-[`cargo-generate`]: https://github.com/cargo-generate/cargo-generate
-[`ravedude`]: https://github.com/Rahix/avr-hal/tree/next/ravedude
-
 ## License
 Licensed under either of
 
