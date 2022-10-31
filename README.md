@@ -1,5 +1,7 @@
 <h1>Rust Robot</h1>
 
+<h2>This project has been put on hold for the time being until I have free time to learn more Rust</h2>
+
 This code uses the avr hardware abstraction layer in order to control the arduino microcontroller from a higher level with the Rust programming language.
 
 To build the code:
