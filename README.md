@@ -1,8 +1,12 @@
-This code uses the avr hardware abstraction layer.
+<h1>Rust Robot</h1>
 
+This code uses the avr hardware abstraction layer in order to control the arduino microcontroller from a higher level with the Rust programming language.
 
-`avr-hal-template`
-
+To build the code:
+```bash
+cargo build
+```
+To run the code:
 ```bash
 cargo run
 ```
